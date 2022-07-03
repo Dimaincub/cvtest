@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto&display=swap');
+
+body {
+  background-image: url(https://amobit.com/wp-content/uploads/2020/04/best-cashback.jpg);
+  background-size: contain;
+  font: normal 18px 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: gold;
+  -webkit-text-stroke: 0.05px black;
+  text-decoration: underline dotted darkorange;
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 25%;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 25);
+}
+
+.container {
+  margin: 60px;
+}
+
+.info {
+  background-color: rgba(0, 255, 255, 0.7);
+  border-radius: 10px 10px 20% 20%;
+  margin: 0;
+  border: 4mm ridge rgba(211, 220, 50, 0.75);
+  padding-left: 5%;
+}
+
+.flex-info {
+  display: flex;
+  justify-content: center;
+}
+
+.info-text {
+  margin: 5%;
+  margin-top: 0;
+  color: MediumVioletRed;
+}
+
+.info-text p:nth-child(odd) {
+  text-decoration: underline;
+}
+
+.info-text p {
+  margin: 0;
+  padding-bottom: 7px;
+}
+
+.info-text ul {
+  margin-top: 0;
+  padding-left: 20px;
+}
+
+.info-text li {
+  list-style-type: '\1F44D';
+}
+
+.info-text a {
+  color: mediumvioletred;
+}
+
+.info-text a:hover {
+  color: rgba(0, 100, 0, 0.5);
+}
+
+.card {
+  border-radius: 35px;
+  padding: 15px 30px;
+  margin-bottom: 15px;
+  border: dashed;
+  color: rgb(61, 61, 61);
+}
+
+.gold {
+  background-color: rgba(255, 215, 0, 0.7);
+  margin-top: 20px;
+}
+
+.gold ol {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.gold li {
+  padding-bottom: 5px;
+}
+
+.orchid {
+  background-color: rgba(218, 112, 214, 0.7);
+}
+
+.lawngreen {
+  background-color: rgba(0, 255, 0, 0.7);
+}
+
+.crimson {
+  background-color: rgba(205, 92, 92, 0.7);
+}
+
+.crimson a {
+  color: rgb(61, 61, 61);
+}
+
+.crimson a:hover {
+  color: pink;
+  background: rgba(0, 100, 0, 0.5);
+  border: 1px solid darkgreen;
+}
+
+h2 {
+  color: DarkTurquoise;
+  -webkit-text-stroke: 0.005px black;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.znak {
+  width: 90px;
+}
+
+.znak-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.znak:hover {
+  background-color: rgba(226, 230, 8, 0.7);
+}
+
+.contact {
+  padding: 10px 50px;
+  padding-bottom: 1px;
+}
+
+.table1 {
+  display: flex;
+  justify-content: center;
+}
+
+.table1 table td {
+  padding-bottom: 5px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.table2 {
+  display: flex;
+  justify-content: center;
+}
+
+.table2 table td {
+  text-align: center;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.heder {
+  color: FireBrick;
+  -webkit-text-stroke: 0.005px black;
+  font-size: 24px;
+}
+
+.temp {
+  color: #b7ff4b;
+}
+
+@media (max-width: 700px) {
+  .flex-info {
+    display: block;
+    text-align: center;
+  }
+  .photo {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+  }
+  .table2 table td {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .table1 table td {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .znak-flex {
+    display: block;
+    text-align: center;
+  }
+}
